@@ -223,7 +223,7 @@ class SignUpViewController: UIViewController {
     @objc func handleSignUpButton(){
         if isEmailValid && isPassValid {
             print("email and pass valid and ready to go to home")
-//            self.navigationController?.pushViewController(HomeViewController(), animated: true)
+            self.navigationController?.pushViewController(HomeViewController(), animated: true)
             
         }else {
             handleEmailField()

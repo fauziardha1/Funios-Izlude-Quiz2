@@ -14,6 +14,7 @@
 		05A7C9B728C6558B00A37A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7C9B528C6558B00A37A74 /* LaunchScreen.storyboard */; };
 		05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9C228C6597700A37A74 /* Extensions.swift */; };
 		05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1C85F28C6699900F8646F /* SignUpViewController.swift */; };
+		05D1C86328C66B9000F8646F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1C86228C66B9000F8646F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		05A7C9B828C6558B00A37A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A7C9C228C6597700A37A74 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		05D1C85F28C6699900F8646F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		05D1C86228C66B9000F8646F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,8 @@
 		05A7C9A928C6558700A37A74 /* Funios-Izlude-Quiz2 */ = {
 			isa = PBXGroup;
 			children = (
+				05D1C86128C66A1400F8646F /* Views */,
 				05A7C9AA28C6558700A37A74 /* AppDelegate.swift */,
-				05A7C9AE28C6558700A37A74 /* SignInViewController.swift */,
-				05D1C85F28C6699900F8646F /* SignUpViewController.swift */,
 				05A7C9AC28C6558700A37A74 /* SceneDelegate.swift */,
 				05A7C9C128C6595F00A37A74 /* Helper */,
 				05A7C9B328C6558B00A37A74 /* Assets.xcassets */,
@@ -76,6 +77,16 @@
 				05A7C9C228C6597700A37A74 /* Extensions.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		05D1C86128C66A1400F8646F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05D1C85F28C6699900F8646F /* SignUpViewController.swift */,
+				05A7C9AE28C6558700A37A74 /* SignInViewController.swift */,
+				05D1C86228C66B9000F8646F /* HomeViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				05A7C9AD28C6558700A37A74 /* SceneDelegate.swift in Sources */,
 				05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */,
 				05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */,
+				05D1C86328C66B9000F8646F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

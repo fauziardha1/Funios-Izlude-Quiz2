@@ -13,6 +13,7 @@
 		05A7C9B428C6558B00A37A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A7C9B328C6558B00A37A74 /* Assets.xcassets */; };
 		05A7C9B728C6558B00A37A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7C9B528C6558B00A37A74 /* LaunchScreen.storyboard */; };
 		05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9C228C6597700A37A74 /* Extensions.swift */; };
+		05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1C85F28C6699900F8646F /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		05A7C9B628C6558B00A37A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A7C9B828C6558B00A37A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A7C9C228C6597700A37A74 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		05D1C85F28C6699900F8646F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				05A7C9AA28C6558700A37A74 /* AppDelegate.swift */,
 				05A7C9AE28C6558700A37A74 /* SignInViewController.swift */,
+				05D1C85F28C6699900F8646F /* SignUpViewController.swift */,
 				05A7C9AC28C6558700A37A74 /* SceneDelegate.swift */,
 				05A7C9C128C6595F00A37A74 /* Helper */,
 				05A7C9B328C6558B00A37A74 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				05A7C9AB28C6558700A37A74 /* AppDelegate.swift in Sources */,
 				05A7C9AD28C6558700A37A74 /* SceneDelegate.swift in Sources */,
 				05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */,
+				05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

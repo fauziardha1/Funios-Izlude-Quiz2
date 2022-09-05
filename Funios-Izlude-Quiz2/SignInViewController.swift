@@ -168,7 +168,7 @@ class SignInViewController: UIViewController {
         }
         
         @objc func handleSignUpButton(){
-//            self.navigationController?.pushViewController(SignUpViewController(), animated: true)
+            self.navigationController?.pushViewController(SignUpViewController(), animated: true)
         }
 
 

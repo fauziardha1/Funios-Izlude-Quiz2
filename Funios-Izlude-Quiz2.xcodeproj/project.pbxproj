@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0556DFBD28C72EC3007BC1FD /* TabBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556DFBC28C72EC3007BC1FD /* TabBarMenuViewController.swift */; };
 		05A7C9AB28C6558700A37A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9AA28C6558700A37A74 /* AppDelegate.swift */; };
 		05A7C9AD28C6558700A37A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9AC28C6558700A37A74 /* SceneDelegate.swift */; };
 		05A7C9AF28C6558700A37A74 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9AE28C6558700A37A74 /* SignInViewController.swift */; };
@@ -14,10 +15,11 @@
 		05A7C9B728C6558B00A37A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7C9B528C6558B00A37A74 /* LaunchScreen.storyboard */; };
 		05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9C228C6597700A37A74 /* Extensions.swift */; };
 		05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1C85F28C6699900F8646F /* SignUpViewController.swift */; };
-		05D1C86328C66B9000F8646F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1C86228C66B9000F8646F /* HomeViewController.swift */; };
+		05D1C86328C66B9000F8646F /* GridListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1C86228C66B9000F8646F /* GridListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0556DFBC28C72EC3007BC1FD /* TabBarMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarMenuViewController.swift; sourceTree = "<group>"; };
 		05A7C9A728C6558700A37A74 /* Funios-Izlude-Quiz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funios-Izlude-Quiz2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A7C9AA28C6558700A37A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05A7C9AC28C6558700A37A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		05A7C9B828C6558B00A37A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A7C9C228C6597700A37A74 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		05D1C85F28C6699900F8646F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		05D1C86228C66B9000F8646F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05D1C86228C66B9000F8646F /* GridListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,8 @@
 			children = (
 				05D1C85F28C6699900F8646F /* SignUpViewController.swift */,
 				05A7C9AE28C6558700A37A74 /* SignInViewController.swift */,
-				05D1C86228C66B9000F8646F /* HomeViewController.swift */,
+				05D1C86228C66B9000F8646F /* GridListViewController.swift */,
+				0556DFBC28C72EC3007BC1FD /* TabBarMenuViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,8 +166,9 @@
 				05A7C9AB28C6558700A37A74 /* AppDelegate.swift in Sources */,
 				05A7C9AD28C6558700A37A74 /* SceneDelegate.swift in Sources */,
 				05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */,
+				0556DFBD28C72EC3007BC1FD /* TabBarMenuViewController.swift in Sources */,
 				05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */,
-				05D1C86328C66B9000F8646F /* HomeViewController.swift in Sources */,
+				05D1C86328C66B9000F8646F /* GridListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

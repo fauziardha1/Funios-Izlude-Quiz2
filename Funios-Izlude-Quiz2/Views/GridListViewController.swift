@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class GridListViewController: UIViewController {
 
     lazy var HomeScreenPageLabel : UILabel = {
             let label = UILabel()

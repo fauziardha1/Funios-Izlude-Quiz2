@@ -17,6 +17,7 @@ class HomeViewController: UITabBarController {
         setupVCs()
         selectedIndex = 0
         // Do any additional setup after loading the view.
+        navigationItem.hidesBackButton = true
     }
     
 
@@ -43,7 +44,7 @@ class HomeViewController: UITabBarController {
     
     func setupVCs() {
             viewControllers = [
-                createNavController(for: GridListViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
+                createNavController(for: SimpleGridViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
                 createNavController(for: UIViewController(), title: NSLocalizedString("Profile", comment: ""), image: UIImage(systemName: "person")!)
             ]
         }

@@ -160,6 +160,8 @@ class SignInViewController: UIViewController {
         @objc func handleSignInButton(){
             if isEmailValid {
                 print("email valid and ready to go to home")
+                navigationItem.hidesBackButton = true
+                self.navigationItem.setHidesBackButton(true, animated: true)
                 self.navigationController?.pushViewController(HomeViewController(), animated: true)
                 
             }else {

@@ -45,7 +45,7 @@ class HomeViewController: UITabBarController {
     func setupVCs() {
             viewControllers = [
                 createNavController(for: SimpleGridViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
-                createNavController(for: UIViewController(), title: NSLocalizedString("Profile", comment: ""), image: UIImage(systemName: "person")!)
+                createNavController(for: ProfileViewController(), title: NSLocalizedString("Profile", comment: ""), image: UIImage(systemName: "person")!)
             ]
         }
 

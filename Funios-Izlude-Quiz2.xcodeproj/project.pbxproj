@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0527B28428C93C2F00A68BB3 /* SimpleGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527B28328C93C2F00A68BB3 /* SimpleGridViewController.swift */; };
 		0527B28628C93E3600A68BB3 /* SimpleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527B28528C93E3600A68BB3 /* SimpleItemCell.swift */; };
+		0527B28828C9DD4700A68BB3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527B28728C9DD4700A68BB3 /* ProfileViewController.swift */; };
 		0556DFBD28C72EC3007BC1FD /* TabBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556DFBC28C72EC3007BC1FD /* TabBarMenuViewController.swift */; };
 		05A7C9AB28C6558700A37A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9AA28C6558700A37A74 /* AppDelegate.swift */; };
 		05A7C9AD28C6558700A37A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C9AC28C6558700A37A74 /* SceneDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		0527B28328C93C2F00A68BB3 /* SimpleGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridViewController.swift; sourceTree = "<group>"; };
 		0527B28528C93E3600A68BB3 /* SimpleItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleItemCell.swift; sourceTree = "<group>"; };
+		0527B28728C9DD4700A68BB3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0556DFBC28C72EC3007BC1FD /* TabBarMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarMenuViewController.swift; sourceTree = "<group>"; };
 		05A7C9A728C6558700A37A74 /* Funios-Izlude-Quiz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funios-Izlude-Quiz2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A7C9AA28C6558700A37A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				0556DFBC28C72EC3007BC1FD /* TabBarMenuViewController.swift */,
 				0527B28328C93C2F00A68BB3 /* SimpleGridViewController.swift */,
 				0527B28528C93E3600A68BB3 /* SimpleItemCell.swift */,
+				0527B28728C9DD4700A68BB3 /* ProfileViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				05A7C9AD28C6558700A37A74 /* SceneDelegate.swift in Sources */,
 				05A7C9C328C6597700A37A74 /* Extensions.swift in Sources */,
 				0527B28428C93C2F00A68BB3 /* SimpleGridViewController.swift in Sources */,
+				0527B28828C9DD4700A68BB3 /* ProfileViewController.swift in Sources */,
 				0556DFBD28C72EC3007BC1FD /* TabBarMenuViewController.swift in Sources */,
 				05D1C86028C6699900F8646F /* SignUpViewController.swift in Sources */,
 			);
